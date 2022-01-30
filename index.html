@@ -11,40 +11,56 @@
     <title>Novo Repositório</title>
     <style>
         .color {
-        background-color: #ff69b4;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 20px;
+                color: indianred;
+                text-align: left;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h2 {
+            background-color: hotpink;
         }
         .ident {
             color: hotpink;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font: size 15px;
         }
-        body {
+            body {
             background-color: lightcyan;
         }
         .blog {
             color: darkgreen;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
-        .topo {
-            text-align:right;
-            color: deepskyblue;
+        ul.separator {
+            list-style: none;
+            padding: 0px;
+            width: 100%;
+            text-align: right;
+         }
+         ul {
+             columns: 2;
          }
         
     </style>
 </head>
 <body>
- <h1>Olá Mundo!</h1> 
- <h2>Esse é o meu primeiro documento HTML & CSS!</h2>
+    <h1 class="color"> 
+        <strong>Andressa Alves</strong>  </h1> 
+    <p>
+     <!--inserindo emoji &#x(codemoji);-->
+    <picture>
+       <img src="foto.jpg" alt="Foto Andressa" width="150px" id="foto">
+       </picture> </p>
+
+    <div class="ident">
+        Essa sou eu! &#x1F467; &#x2764;</div>
+     <p> <strong><i> <q>No final do dia, sempre dou risada. <br> E não perco essa minha estranha mania de ter fé na vida! <br> (autor(a) indefinido)</q> </strong> <i> </p> <!--utilizado citação "q"-->
+     
+<hr>
+ <h2 id="topo" >Olá Mundo!</h2> 
+ <h3>Esse é o meu primeiro documento HTML & CSS!</h3>
  <hr> <!-- linha horizontal / comentário-->
- <p class="color"> <strong>Meu nome é Andressa Alves</strong>  </p> 
- <p class="ident">Essa sou eu! &#x1F467; &#x2764;</p> <!--inserindo emoji &#x(codemoji);-->
- <picture>
-    <img src="foto.jpg" alt="Foto Andressa" width="150px" id="topo">
-    </picture>
- <p> <strong><i> <q>No final do dia, sempre dou risada. <br> E não perco essa minha estranha mania de ter fé na vida! <br> (autor(a) indefinido)</q> </strong> <i> </p> <!--utilizado citação "q"-->
- <ul>
+    <br>
+     <ul>
  <strong> Breve Descrição &#x1F3E0;  </strong>
  
     <li>Brasileira</li>             
@@ -60,15 +76,20 @@
     <li>Proatividade</li>
     <li>Comprometimento</li>
     <li>Adaptabilidade</li>
+ <strong> Links  </strong>
+ <li> <a href="#topo"> Interno (ir para o topo) </a></li>   
+ <li> <a href="http://github.com/Andressa-Alves" target="_blank" rel="github.com"> Externo - Meu Github </a> </li>
+ <li> <a href="https://www.youtube.com/watch?v=ODc-55gm_Mc" target="_blank" rel="codigo fonte tv"> Curiosidades </a></li>
  </ul>
  <hr>
  <h2 class="blog">
- <a href="http://blog.betrybe.com" target="_blank" rel="blog Trybe" >BLOG </h2></a>
+ <a href="http://blog.betrybe.com" target="_blank" rel="blog Trybe" >BLOG - TRYBE </h2></a>
 
-<p class="topo"> <a href="#topo">
-    Topo</p></a>
  
-
-    
+<br>
+<p class="foto"> <a href="#foto">
+    VOLTAR PARA FOTO</a></p> 
+   
+     
 </body>
 </html>
